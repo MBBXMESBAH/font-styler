@@ -1,0 +1,29 @@
+{
+  "name": "font-styler",
+  "version": "1.0.0",
+  "description": "A simple and flexible Node.js library for fetching and applying custom font styles from FontGen API.",
+  "main": "index.js",
+  "keywords": [
+    "font-styler",
+    "font-generator",
+    "font-styles",
+    "text-styling",
+    "custom-fonts",
+    "font-api",
+    "nodejs",
+    "text-effects"
+  ],
+  "author": "Mesbah Saxx",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MBBXMESBAH/font-styler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MBBXMESBAH/font-styler/issues"
+  },
+  "homepage": "https://github.com/MBBXMESBAH/font-styler#readme",
+  "dependencies": {
+    "axios": "^1.7.8"
+  }
+}
