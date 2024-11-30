@@ -1,6 +1,6 @@
 {
   "name": "font-styler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple and flexible Node.js library for fetching and applying custom font styles from FontGen API.",
   "main": "index.js",
   "keywords": [
