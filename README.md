@@ -2,9 +2,9 @@
 
 Font Styler is a simple and flexible Node.js library that allows you to fetch and apply custom font styles to text using the FontGen API. This library is perfect for creating stylized text for applications, websites, or any project requiring custom fonts.
 
-![npm](https://img.shields.io/npm/v/font-styler)
-![npm](https://img.shields.io/npm/dw/font-styler)
-![npm](https://img.shields.io/npm/dt/font-styler)
+![npm](https://img.shields.io/npm/v/@saxx/font-styler)
+![npm](https://img.shields.io/npm/dw/@saxx/font-styler)
+![npm](https://img.shields.io/npm/dt/@saxx/font-styler)
 
 ## Features
 
@@ -15,15 +15,15 @@ Font Styler is a simple and flexible Node.js library that allows you to fetch an
 
 ## 📊 Statistics
 
-- **Total Downloads**: ![npm](https://img.shields.io/npm/dt/font-styler)
-- **Weekly Downloads**: ![npm](https://img.shields.io/npm/dw/font-styler)
+- **Total Downloads**: ![npm](https://img.shields.io/npm/dt/@saxx/font-styler)
+- **Weekly Downloads**: ![npm](https://img.shields.io/npm/dw/@saxx/font-styler)
 
 ## Installation
 
 To install the library, use npm:
 
 ```bash
-npm install font-styler@latest
+npm install @saxx/font-styler@latest
 ```
 
 ## Usage
@@ -33,13 +33,13 @@ Here’s a quick example of how to use Font Styler:
 ### Importing the Library
 
 ```javascript
-const { fontStyle, applyFont, fontStyler, getFontStyle, allFont, listFont, getAllFonts, fetchFonts } = require('font-styler');
+const { fontStyle, applyFont, fontStyler, getFontStyle, allFont, listFont, getAllFonts, fetchFonts } = require('@saxx/font-styler');
 ```
 
 ### Applying a Font Style to Text
 
 ```javascript
-const { fontStyle, applyFont, fontStyler, getFontStyle, allFont, listFont, getAllFonts, fetchFonts } = require('font-styler');
+const { fontStyle, applyFont, fontStyler, getFontStyle, allFont, listFont, getAllFonts, fetchFonts } = require('@saxx/font-styler');
 
 fontStyle('hello', 'monospace').then(result => {
   console.log("Styled Text:", result);
@@ -51,7 +51,7 @@ fontStyle('hello', 'monospace').then(result => {
 ### Fetching All Available Fonts
 
 ```javascript
-const { fontStyle, applyFont, fontStyler, getFontStyle, allFont, listFont, getAllFonts, fetchFonts } = require('font-styler');
+const { fontStyle, applyFont, fontStyler, getFontStyle, allFont, listFont, getAllFonts, fetchFonts } = require('@saxx/font-styler');
 
 allFont().then(result => {
   console.log("Available Fonts:", result);

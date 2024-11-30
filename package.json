@@ -1,6 +1,6 @@
 {
-  "name": "font-styler",
-  "version": "1.0.1",
+  "name": "@saxx/font-styler",
+  "version": "1.0.2",
   "description": "A simple and flexible Node.js library for fetching and applying custom font styles from FontGen API.",
   "main": "index.js",
   "keywords": [
@@ -13,6 +13,9 @@
     "nodejs",
     "text-effects"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Mesbah Saxx",
   "license": "ISC",
   "repository": {
